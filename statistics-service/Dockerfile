@@ -1,4 +1,4 @@
-FROM java:8-jre
+FROM amazon/aws-sam-cli-emulation-image-java8.al2
 MAINTAINER Alexander Lukyanchikov <sqshq@sqshq.com>
 
 ADD ./target/statistics-service.jar /app/
